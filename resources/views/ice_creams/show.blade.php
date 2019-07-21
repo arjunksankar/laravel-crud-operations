@@ -22,7 +22,7 @@
             <div class="col-md-6 mb-3">
                 <div class="data-view">
                     <label><b>{{ __('Type') }}</b></label>
-                    <p>{{ uc words(str_replace("-"," ",$ice_cream->type)) }}</p>            
+                    <p>{{ ucwords(str_replace("-"," ",$ice_cream->type)) }}</p>            
                 </div>
             </div>
             <div class="col-md-6 mb-3">

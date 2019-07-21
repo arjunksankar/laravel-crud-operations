@@ -28,7 +28,7 @@
                 <tr>
                     <td>{{ $ice_cream->name }}</td>
                     <td>{{ $ice_cream->brand }}</td>
-                    <td>{{ uc words(str_replace("-"," ",$ice_cream->type)) }}</td>
+                    <td>{{ ucwords(str_replace("-"," ",$ice_cream->type)) }}</td>
                     <td>{{ 'Rs. '.$ice_cream->price }}</td>
                     <td>
                         <a href="{{ route('ice-cream.edit',$ice_cream->id) }}" class="btn btn-primary a-btn-slide-text">
