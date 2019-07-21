@@ -22,8 +22,8 @@ vendor/bin/phpunit
 
 ## Assumptions
 
-Cup is 3 unit price less than cone
-Cup should increase 2 unit price each quarter
-The size large costs 2.5 unit price more than regular
+Cup is 3 unit price less than cone.
+Cup should increase 2 unit price each quarter.
+The size large costs 2.5 unit price more than regular.
 Multiple ice creams can be added using same brand and type and are assumed to be having the same price as that of before[for example multiple flavours like chocolate,vanilla,etc will be having same prices.].
-Ice cream names are assumed to be as unique
+Ice cream names are assumed to be as unique.
